@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\UOceanDemo.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{A8FE289D-68D7-4433-B232-8F2BD366CA5E}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\UOceanDemo.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\UOceanDemoEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{31CCD566-E8BE-4F55-9760-3663C3C05093}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Plugins">
+			<UniqueIdentifier>{3D86AFF6-8076-4C76-A5E7-37D3D7E25F6E}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\UOcean">
+			<UniqueIdentifier>{DECBC371-4267-4229-9E2C-445B872951B8}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\UOcean\Source">
+			<UniqueIdentifier>{CAF47587-BA48-4D82-8DEE-624DDD4B7A0D}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\UOcean\Source\UOcean">
+			<UniqueIdentifier>{BC61BD38-3FBF-4CAB-9846-A3D5B3329F50}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\UOcean\Source\UOcean\UOcean.Build.cs">
+			<Filter>Plugins\UOcean\Source\UOcean</Filter>
+		</None >
+		<Filter Include="Plugins\UOcean\Source\UOcean\Private">
+			<UniqueIdentifier>{2CC9359D-101D-4A7E-A983-0B616447C744}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\UOcean\Source\UOcean\Private\UOcean.cpp">
+			<Filter>Plugins\UOcean\Source\UOcean\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\UOcean\Source\UOcean\Private\UOceanPrivatePCH.h">
+			<Filter>Plugins\UOcean\Source\UOcean\Private</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\UOcean\Source\UOcean\Public">
+			<UniqueIdentifier>{090378AF-F83B-46F4-83F3-5D42B05B93BD}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\UOcean\Source\UOcean\Public\UOcean.h">
+			<Filter>Plugins\UOcean\Source\UOcean\Public</Filter>
+		</ClInclude >
+		<None Include="..\..\Plugins\UOcean\UOcean.uplugin">
+			<Filter>Plugins\UOcean</Filter>
+		</None >
+		<Filter Include="Plugins\UOcean\Resources">
+			<UniqueIdentifier>{470BFD42-D8AD-4EA8-BB87-853AF3EE23A8}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\UOcean\Resources\Icon128.png">
+			<Filter>Plugins\UOcean\Resources</Filter>
+		</None >
+		<Filter Include="Source\UOceanDemo">
+			<UniqueIdentifier>{B8E618DC-F895-4F07-AF59-40841A4C8E52}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\UOceanDemo\UOceanDemo.Build.cs">
+			<Filter>Source\UOceanDemo</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\UOceanDemo\UOceanDemo.cpp">
+			<Filter>Source\UOceanDemo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\UOceanDemo\UOceanDemo.h">
+			<Filter>Source\UOceanDemo</Filter>
+		</ClInclude >
+		<Filter Include="Source\UOceanDemo\Private">
+			<UniqueIdentifier>{DEB4C87E-6A03-4A4B-9D10-D764D0FF4A81}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\UOceanDemo\Private\UOceanGameInstance.cpp">
+			<Filter>Source\UOceanDemo\Private</Filter>
+		</ClCompile >
+		<Filter Include="Source\UOceanDemo\Public">
+			<UniqueIdentifier>{034C43DC-310F-4828-AF7F-33F35C799051}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\UOceanDemo\Public\UOceanGameInstance.h">
+			<Filter>Source\UOceanDemo\Public</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
